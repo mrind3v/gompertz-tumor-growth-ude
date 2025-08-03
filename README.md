@@ -11,9 +11,9 @@ The core idea is to combine a known mechanistic model (the Gompertz equation) wi
 The project is based on a modified Gompertz Ordinary Differential Equation (ODE), a common model for describing growth processes that are initially fast but slow down as they approach a limit. This is particularly applicable to tumor growth dynamics.
 
 The central equation is:
-$$
+```math
 \frac{dT}{dt} = \underbrace{r T \ln\left(\frac{K}{T}\right)}_{\text{Gompertz Growth}} - \underbrace{c(t)T}_{\text{Chemotherapy Effect}}
-$$
+```
 
 Where:
 *   `T(t)`: The size of the tumor at time `t`.
