@@ -49,13 +49,13 @@ The trained UDE successfully learns the underlying parameters from the data.
 
 **Evaluation Plot:** The model's prediction (blue dashed line) almost perfectly overlays the true data (red line) it was trained on.
 
-*(You can insert your evaluation plot here)*
-``
+![Evaluation Plot](training-results.png)
+
 
 **Extrapolation Plot:** More importantly, the model accurately predicts the tumor's trajectory for 50 days beyond the training data, demonstrating that it has learned the system's true dynamics.
 
-*(You can insert your extrapolation plot here)*
-``
+![Extrapolaion Plot](extrapolated-tumor-growth.png)
+
 
 ## Getting Started
 
